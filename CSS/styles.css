@@ -1,0 +1,142 @@
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #557571;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  padding-top: 85px;
+}
+
+h2 {
+  color: #557571;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #056676;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  width: 5%;
+  border-width: 6px;
+  border-style: dotted none none;
+  border-color: #EAF6F6;
+  margin: 100px auto 100px auto;
+}
+
+a {
+  color: #4f8a8b;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+p {
+  line-height: 2;
+}
+
+.about-me {
+  text-align: center;
+  width: 45%;
+  margin: 0 auto 50px auto;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  right: 300px;
+}
+
+.bottom-container {
+  background-color: #056676;
+  margin-top: 100px;
+  padding: 50px 0 10px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: .75rem;
+  padding: 20px 0;
+}
+
+.end-statement {
+  text-align: center;
+  width: 45%;
+  margin: 40px auto 60px auto;
+}
+
+.laptop-img {
+  float: left;
+  margin-right: 30px;
+  width: 25%
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.profile-pic {
+  margin-top: 100px;
+}
+
+.python-img {
+  float: right;
+  margin-left: 30px;
+  width: 25%
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%
+}
+
+.top-cloud {
+  position: absolute;
+  right: 280px;
+  top: 80px;
+}
+
+.topContainer {
+  background-color: #a0c1b8;
+  position: relative;
+  padding-top: 100px;
+}
+
+.btn {
+	box-shadow: 0 21px 22px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:1px 50px 50px #3d768a;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
